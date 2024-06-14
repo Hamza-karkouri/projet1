@@ -11,15 +11,27 @@
     overflow-x: hidden;
 }
 
+.my-element {
+   
+}
+
+
 body {
     display: flex;
     gap: 14vh;
     justify-content: center;
     flex-direction: column;
+    animation: colorChange 5s ease infinite ;
    
-    background:  linear-gradient(94deg, rgb(15 255 235 / 97%) 0%, rgba(251, 249, 249, 1) 100%);
     
 }
+
+@keyframes colorChange {
+    0% { background: linear-gradient(94deg, rgba(255, 15, 111, 0.97) 0%, rgba(251, 249, 249, 1) 100%); }
+    50% { background: linear-gradient(94deg, rgba(255, 15, 251, 0.97) 0%, rgba(251, 249, 249, 1) 100%); }
+    100% { background: linear-gradient(94deg, rgba(5, 237, 218, 0.97) 0%, rgba(251, 249, 249, 1) 100%)}
+}
+
 
 .section1 {
     background-image: url('../images/bg-header-desktop.png');
