@@ -1,0 +1,412 @@
+@font-face {
+    font-family: myfont;
+    src: url('../font/BaiJamjuree-Medium.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    gap: 14vh;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.section1 {
+    background-image: url('../images/bg-header-desktop.png');
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.text1 {
+    padding-inline: 27vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text1 span {
+    color: rgba(128, 128, 128, 0.805);
+}
+
+.section1 h1 {
+    color: #49535a;
+    font-size: 32px;
+}
+
+.section1 {
+    color: rgba(128, 128, 128, 0.805);
+}
+
+.buttonga {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button1,
+.button2 {
+
+    padding: 2vh;
+    color: white;
+    font-weight: 600;
+    padding-inline: 4vw;
+    border-radius: 64px;
+
+}
+
+.button1 {
+    box-shadow: 1px 1px 18px hsla(171, 74%, 47%, 0.827);
+    border: none;
+    background: hsl(171, 74%, 47%);
+    border-bottom: 3px solid hsla(171, 71%, 27%, 0.656);
+}
+
+.button2 {
+    box-shadow: 1px 1px 18px hsla(233, 97%, 65%, 0.827);
+    border: none;
+    background: hsl(233, 97%, 65%);
+    border-bottom: 3px solid hsl(233, 71%, 27%, 0.656);
+}
+
+.textarea {
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-inline: 26vw;
+}
+
+.textarea h1 {
+    color: #49535a;
+    font-size: 32px;
+}
+
+.textarea span {
+    color: rgba(128, 128, 128, 0.805);
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.computer img {
+    width: 40%;
+
+}
+
+.computer {
+    width: 92%;
+    padding-inline: 8vw;
+    display: flex;
+    gap: 10vw;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    width: 33%;
+}
+
+.content1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    color: #49535a;
+}
+
+.content1 span {
+    color: rgba(128, 128, 128, 0.805);
+}
+
+.devices {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+    padding-top: 5vh;
+}
+
+.acces {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+h1 {
+    color: #49535a;
+    font-size: 32px;
+}
+
+span {
+    color: rgba(128, 128, 128, 0.805);
+}
+
+.pro-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15vh;
+    text-align: center;
+}
+
+.pro-supp {
+    padding-inline: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pro-supp div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    gap: 25px;
+
+
+}
+
+.logos {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 10px;
+    align-items: center;
+}
+
+.last-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-bottom: 100px;
+}
+
+.last-text {
+    padding-inline: 29%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    background-color: #f5f6f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-inline: 8vw;
+
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about {
+
+    gap: 80px;
+    display: flex;
+    flex-basis: 68%;
+
+}
+
+.about a {
+    text-decoration: none;
+    color: rgb(143, 142, 142);
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.button1:hover {
+    box-shadow: 1px 1px 18px hsla(171, 76%, 51%, 0.827);
+    border: none;
+    background: hsl(171, 76%, 51%);
+    border-bottom: 3px solid hsla(171, 69%, 36%, 0.656);
+
+}
+
+.button2:hover {
+    box-shadow: 1px 1px 18px hsla(233, 100%, 69%, 0.827);
+    border: none;
+    background: hsl(225, 99%, 69%);
+    border-bottom: 3px solid hsla(233, 54%, 47%, 0.656);
+}
+
+.about a:hover {
+    color: #37b8aa;
+}
+
+.icons svg :hover {
+
+    fill: #37b8aa;
+}
+.flip{
+  
+    position: relative;
+   
+   
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip:hover{
+    transform: rotateY(180deg);
+}
+
+@media (max-width:438px) {
+
+    .section1,
+    .section2,
+    .pro-main,
+    .last-section {
+        width: 100%;
+    }
+    .section1{
+        background-image: url('../images/bg-header-mobile.png');
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+    .section2 {
+        align-items: center;
+    }
+
+    .text1 {
+        width: 80%;
+    }
+
+    .buttonga {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button1,
+    .button2 {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .textarea {
+        padding-inline: 0;
+        width: 80%;
+    }
+
+    .computer {
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .computer img {
+        width: 80%;
+    }
+
+    .content1 {
+        text-align: center;
+        width: 80%;
+    }
+
+    .devices {
+        width: 100%;
+    }
+
+    .acces {
+        width: 80%;
+    }
+
+    .devices img {
+        width: 80%;
+    }
+
+    .pro {
+        width: 80%;
+    }
+
+    .pro-supp {
+
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pro-supp div {
+        width: 80%;
+    }
+
+    .logos {
+        padding-top: 40px;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .last-text {
+
+        padding-inline: 9%;
+
+
+
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .about {
+        text-align: center;
+        padding: 50px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .about div {
+        gap: 40px;
+
+    }
+
+    .icons {
+        gap: 50px;
+    }
+}
